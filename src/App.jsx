@@ -12,7 +12,7 @@ const App = () => {
       <div className='w-[17%] h-auto bg-yellow-500'>
         <Sidebar />
       </div>
-      <div className='w-full h-auto  flex items-center justify-center bg-green-400'> <Holders/> </div>
+      <div className='w-full h-auto  flex items-center justify-center bg-green-400 '> <Holders/> </div>
       </div>
      
       

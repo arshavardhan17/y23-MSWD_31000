@@ -6,7 +6,7 @@ const Sidebar = () => {
  {
     Elements.map((elements, index) =>(
         
-            <h1 className='w-full h-16 bg-black border-2 border-white-400 text-white flex justify-center items-center'>{elements.name}</h1>
+            <h1 className='w-full h-12 bg-black border-2 border-white-400 text-white flex justify-center items-center rounded-sm'>{elements.name}</h1>
       )
     )
  }
