@@ -4,7 +4,7 @@ import Sidebar from './components/Sidebar'
 import Holders from './components/Holders'
 const App = () => {
   return (
-    <div className='w-full h-screen grid grid-cols-12 grid-rows-8 '>
+    <div className='w-full h-screen grid grid-cols-12 grid-rows-8 overflow-hidden'>
       <div className='w-full h-auto row-span-1 col-span-12 bg-orange-600'>
         <Hedder />
       </div>

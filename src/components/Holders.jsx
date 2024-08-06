@@ -7,7 +7,7 @@ const Holders = () => {
       {
         Cards.map((card, index)=>(
 
-            <div className='w-40 h-44   bg-red-500 rounded-md '>{card.hedding}</div>
+            <div  key={index}className='w-40 h-44   bg-red-500 rounded-md '>{card.hedding}</div>
         )
         )
       }
