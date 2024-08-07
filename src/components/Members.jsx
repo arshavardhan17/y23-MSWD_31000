@@ -6,7 +6,7 @@ const Members = () => {
     <div>
       {
         Students.map((student, index) => (
-            <div key={index}>
+            <div key={index} className=''>
                 <h1>{student.name}</h1>
                 <h1>{student.id}</h1>
                <Attendencebutton/>
