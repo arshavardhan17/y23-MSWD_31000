@@ -18,3 +18,13 @@ export const Cards =[
  
 ]
 
+
+export const Students =[
+    
+{ name:"arsha",id:"2300031000"},
+{ name:"adthaya",id:"2300031000"},
+{ name:"vishnu",id:"2300031000"},
+{ name:"abhinav",id:"2300031000"},
+{ name:"vinay",id:"2300031000"},
+
+]
